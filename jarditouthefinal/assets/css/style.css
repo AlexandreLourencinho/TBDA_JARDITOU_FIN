@@ -1,0 +1,22 @@
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+	background-color:gold;
+}
+#nav {
+	color: black;
+	background-color: black;
+}
+@media screen and (max-width: 640px)
+{
+#photo {
+	display: none;
+}
+table th :first-child{
+	display: none;
+}
+#photo2 
+{
+	display: none;
+}
+
+}
